@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = prompt("Nhập chuỗi bất kỳ");
+    let count = 0;
+    function check(x,count){
+        for (let j=0;j<x.length;j++){
+            if(x[j]==="a"||x[j]==="o"||x[j]==="e"||x[j]==="u"||x[j]==="i"){
+                count++;
+                return count;
+            }
+            else {
+                return false;
+            }
+                }
+    }
+    let c=check(x,count);
+    document.write(c);
+</script>
+</body>
+</html>

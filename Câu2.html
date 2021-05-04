@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(a,Arrs) {
+        for (let i = 0; i < arrs.length; i++) {
+            if (a == Arrs[i]) {
+                return Arrs[i];
+            }
+        }
+    }
+    let number = prompt("Nhập vào 1 số nguyên bất kỳ")
+    let arrs=[1,2,3,4,5,6,7,8,9];
+    for (let i=0;i<arrs.length;i++){
+        if (number==arrs[i]){
+            alert(number + " nằm trong mảng");
+        }
+        else {
+            alert(number+" không nằm trong mảng");
+        }
+    }
+
+</script>
+</body>
+</html>
